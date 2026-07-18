@@ -1,6 +1,6 @@
 pkgbase = playstar
 	pkgdesc = A personal music player built with Godot 4 and C#
-	pkgver = 1.1.0
+	pkgver = 1.2.0
 	pkgrel = 1
 	url = https://github.com/hayukimori/playstar
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = playstar
 	depends = vlc
 	depends = gtk3
 	options = !strip
-	source = https://github.com/hayukimori/playstar/releases/download/v1.1.0/PlayStar-linux-x64.tar.gz
-	sha256sums = 7918a5234256a284f809bcb15357ddc99e935d70780c7d93068c7c5494978102
+	source = https://github.com/hayukimori/playstar/releases/download/v1.2.0/PlayStar-linux-x64.tar.gz
+	sha256sums = b9d41301290271533f72bdeeba0dccc8b28fb3046503d53faa343661712c80d7
 
 pkgname = playstar
