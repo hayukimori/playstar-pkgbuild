@@ -1,8 +1,8 @@
 # Maintainer: Hayukimori
 pkgname=playstar
-pkgver=1.2.0
+pkgver=1.2.2
 pkgrel=1
-_tag=v1.2.0
+_tag=v1.2.2
 pkgdesc="A personal music player built with Godot 4 and C#"
 arch=('x86_64')
 url="https://github.com/hayukimori/playstar"
@@ -11,7 +11,7 @@ depends=('vlc' 'gtk3')
 options=('!strip')
 
 source=("https://github.com/hayukimori/playstar/releases/download/$_tag/PlayStar-linux-x64.tar.gz")
-sha256sums=('b9d41301290271533f72bdeeba0dccc8b28fb3046503d53faa343661712c80d7')
+sha256sums=('9aa791ae831de3e9765505e35d6de5bcd85a63d1b9d380ab61f254a3fc341d40')
 
 package() {
     cd "$srcdir"
