@@ -11,7 +11,7 @@ depends=('vlc' 'gtk3')
 options=('!strip')
 
 source=("https://github.com/hayukimori/playstar/releases/download/$_tag/PlayStar-linux-x64.tar.gz")
-sha256sums=('c4e8c82273e70e24fc88a4c725177525525fe0eb8de3fd15d8a00b04215c6268')
+sha256sums=('f1117d7b4031fceacbaac4af766312e6a4faaf48de1f3930605614ca04b55a29')
 
 package() {
     cd "$srcdir"
