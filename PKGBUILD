@@ -23,7 +23,7 @@ package() {
 
     install -Dm755 /dev/stdin "$pkgdir/usr/bin/playstar" <<'EOF'
 #!/bin/sh
-exec /usr/share/playstar/PlayStar "$@"
+exec /usr/share/playstar/PlayStar -- "$@"
 EOF
 
     install -Dm644 /dev/stdin "$pkgdir/usr/share/dbus-1/services/org.mpris.MediaPlayer2.playstar.service" <<'EOF'
